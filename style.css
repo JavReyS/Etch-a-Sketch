@@ -1,0 +1,10 @@
+.gridSquareDiv {
+    border: 5px solid black;
+    width: 544px;
+    height:  544px;
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: center;
+    justify-content: center;*/
+}
+
