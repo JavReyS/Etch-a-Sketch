@@ -5,6 +5,9 @@ const grid = () => {
         const square = document.createElement("div");
         square.classList.add("square");
         square.setAttribute("style", "width: 30px; height: 30px; border: 2px solid #eee");
+        square.addEventListener('mouseenter', function () {
+            square.style.backgroundColor = "black";
+        })
         container.appendChild(square);
     }
 }
