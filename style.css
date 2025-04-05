@@ -1,10 +1,25 @@
+div.title, div.menu, div.grid {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
 .gridSquareDiv {
     border: 5px solid black;
-    width: 544px;
-    height:  544px;
+    width: 500px;
+    height:  500px;
     display: flex;
     flex-wrap: wrap;
-    /*align-items: center;
-    justify-content: center;*/
 }
 
